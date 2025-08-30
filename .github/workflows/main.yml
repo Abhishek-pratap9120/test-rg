@@ -12,10 +12,7 @@ jobs:
         with:
           version: 1.12.1
       - name: Terraform init/plan
-        uses: comu2e/tfnotify-composite-action@1.0.4
-        with:
-          name: terraform init
-          run: terraform init
-          shall: bash
+        run: terraform init
+        shell: bash
               
             
