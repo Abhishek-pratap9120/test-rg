@@ -15,5 +15,7 @@ jobs:
         uses: comu2e/tfnotify-composite-action@1.0.4
         with:
           name: terraform init
+          run: |
+            terraform init
               
             
